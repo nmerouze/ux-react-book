@@ -1,0 +1,24 @@
+{
+  "name": "signup-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --config webpack.prod.js",
+    "server": "webpack-dev-server --content-base public --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Merouze",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

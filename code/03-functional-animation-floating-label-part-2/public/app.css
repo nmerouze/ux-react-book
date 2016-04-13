@@ -1,0 +1,14 @@
+.text-field {
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.text-field label {
+  cursor: text;
+  position: absolute; top: 7px; left: 12px;
+  transition: all 250ms ease;
+}
+
+.text-field label.is-floating {
+  top: -16px;
+}
